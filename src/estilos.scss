@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html, body, #root {
+    background-color: green;
+    height: 100vh;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+#root{
+    display: flex;
+    flex-direction: column;
+}
+
+#root > main, #root > header #root > footer {
+    padding: 1rem;
+}
+
+#root > main {
+    flex-grow: 1;
+}
+
+#root > header {
+    background-color: lawngreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+nav{
+    a{
+        margin-left: 1rem;
+    }
+}
