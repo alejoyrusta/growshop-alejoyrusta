@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/growshop-alejoyrusta/static/css/main.0170c41e.css",
+    "main.js": "/growshop-alejoyrusta/static/js/main.9918b516.js",
+    "index.html": "/growshop-alejoyrusta/index.html",
+    "main.0170c41e.css.map": "/growshop-alejoyrusta/static/css/main.0170c41e.css.map",
+    "main.9918b516.js.map": "/growshop-alejoyrusta/static/js/main.9918b516.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0170c41e.css",
+    "static/js/main.9918b516.js"
+  ]
+}
