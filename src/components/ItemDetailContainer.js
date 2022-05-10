@@ -1,9 +1,5 @@
-import Pedido from "./ItemDetail";
 
-const ItemDetailContainer = () => {
-    return(
-        <Pedido/>
-    )
-}
+const ItemDetailContainer = () => {}
+
 
 export default ItemDetailContainer
