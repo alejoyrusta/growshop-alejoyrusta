@@ -19,7 +19,8 @@ const productosStock = [
     }
 ]
 
-const Container = () => {
+const Container = (props) => {
+    const greetings = "Bienvenido a WeedTF growshop"
     const [productos, setProductos] = useState([])
     useEffect(()=>{
         setTimeout(()=>{
@@ -30,6 +31,7 @@ const Container = () => {
     }
     return(
         <>
+            <h5>{greetings}</h5>
             <Contador stock={10} init={0} onAdd={onAdd}/>
             <ul>
                 {productos.map((producto,indice)=>{
